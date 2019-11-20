@@ -17,7 +17,7 @@ class PostAdmin(admin.ModelAdmin):
         'category',
         'published',
         'created_at',
-        'comments_count',
+        'comments_counts',
     )
 
     list_filter = (
